@@ -1,0 +1,457 @@
+@media (min-width: 1200px) and (max-width: 1399px) {
+/* Responsive For Extra Large Device Like PC or Large Laptop */
+
+    /* Banner section start */
+
+    #banner .slider-item {
+        height: 650px;
+    }
+
+    #banner .slider-item img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* Banner section end */
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+/* Responsive For Large Device Like Laptop or iPad Pro */
+
+    /* Banner section start */
+
+    #banner .slider-item {
+        height: 600px;
+    }
+
+    #banner .slider-item img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* Banner section end */
+
+    /* Proftfolio section start */
+
+    #portfolio .image-info {
+        padding-left: 20px;
+    }
+
+    #portfolio .image-info h6 {
+        font: 400 14px/25px 'Open Sans', sans-serif;
+    }
+    
+    #portfolio .image-icon {
+        transform: scale(.7) translate(-70%, -70%);
+        -webkit-transform: scale(.7) translate(-70%, -70%);
+        -moz-transform: scale(.7) translate(-70%, -70%);
+        -ms-transform: scale(.7) translate(-70%, -70%);
+        -o-transform: scale(.7) translate(-70%, -70%);
+    }
+
+    /* Proftfolio section end */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+/* Responsive For Medium Device Like Tab or I Pad */
+
+    /* Navbar section start */
+
+    .navbar {
+        background: rgba(0, 0, 0, 0.8);
+        padding-top: 5px !important;
+    }
+
+    .navbar .container-xl {
+        padding-bottom: 5px;
+    }
+
+    .navbar .nav-item {
+        padding-top: 20px;
+        margin-top: 10px;
+        padding-bottom: 20px;
+        background: rgba(0, 197, 252, 0.8);
+    }
+
+    .nav-link {
+        padding-left: 20px !important;
+    }
+
+    .nav-link:after {
+        display: none;
+    }
+
+    .navbar .mobile-search .nav-item {
+        padding-top: 0px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        background: none;
+    }
+
+    /* Navbar section end */
+
+    /* Banner section start */
+
+    #banner .slider-item {
+        height: 500px;
+    }
+
+    #banner .slider-item img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #banner .left-arrow, #banner .right-arrow {
+        display: none !important;
+    }
+
+    #banner .overlay {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /* Banner section end */
+
+    /* Proftfolio section start */
+
+    #portfolio .image-item {
+        width: 33.3%;
+        overflow: hidden;
+    }
+
+    #portfolio .image-info {
+        padding-left: 20px;
+        bottom: -70px;
+    }
+
+    #portfolio .image-info h6 {
+        font: 400 14px/25px 'Open Sans', sans-serif;
+    }
+    
+    #portfolio .image-icon {
+        transform: scale(.7) translate(-70%, -70%);
+        -webkit-transform: scale(.7) translate(-70%, -70%);
+        -moz-transform: scale(.7) translate(-70%, -70%);
+        -ms-transform: scale(.7) translate(-70%, -70%);
+        -o-transform: scale(.7) translate(-70%, -70%);
+    }
+
+    /* Proftfolio section end */
+
+    /* Testimonials & Skills section start */
+
+    .testimonials .image {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Testimonials & Skills section end */
+
+    /* Footer section start */
+
+    #footer {
+        padding-top: 100px;
+    }
+
+    /* Footer section end */
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+/* Responsive For Small Device Like Portrait Phone or Small Tab */
+
+    /* Navbar section start */
+
+    .navbar {
+        background: rgba(0, 0, 0, 0.8);
+        padding-top: 5px !important;
+    }
+
+    .navbar .container-xl {
+        padding-bottom: 5px;
+    }
+
+    .navbar .nav-item {
+        padding-top: 20px;
+        margin-top: 10px;
+        padding-bottom: 20px;
+        background: rgba(0, 197, 252, 0.8);
+    }
+
+    .nav-link {
+        padding-left: 20px !important;
+    }
+
+    .nav-link:after {
+        display: none;
+    }
+
+    .navbar .mobile-search .nav-item {
+        padding-top: 0px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        background: none;
+    }
+
+    /* Navbar section end */
+
+    /* Banner section start */
+
+    #banner .slider-item {
+        height: 500px;
+    }
+
+    #banner .slider-item img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #banner .left-arrow, #banner .right-arrow {
+        display: none !important;
+    }
+
+    #banner .overlay {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /* Banner section end */
+
+    /* Service section start */
+
+    #service {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    /* Service section end */
+
+    /* Features section start */
+
+    #features .feature {
+        padding-top: 30px;
+        padding-bottom: 40px;
+        width: 70% !important;
+        left: 30%;
+    }
+
+    #features .mobile-screen {
+        display: none;
+    }
+
+    /* Features section end */
+
+    /* Proftfolio section start */
+
+    #portfolio .image-item {
+        width: 33.3%;
+        overflow: hidden;
+    }
+
+    #portfolio .image-info {
+        padding-left: 20px;
+        bottom: -70px;
+    }
+
+    #portfolio .image-info h6 {
+        font: 400 14px/25px 'Open Sans', sans-serif;
+    }
+    
+    #portfolio .image-icon {
+        transform: scale(.7) translate(-70%, -70%);
+        -webkit-transform: scale(.7) translate(-70%, -70%);
+        -moz-transform: scale(.7) translate(-70%, -70%);
+        -ms-transform: scale(.7) translate(-70%, -70%);
+        -o-transform: scale(.7) translate(-70%, -70%);
+    }
+
+    /* Proftfolio section end */
+
+    /* Testimonials & Skills section start */
+
+    .testimonials .image {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Testimonials & Skills section end */
+
+    /* Footer section start */
+
+    #footer {
+        padding-top: 100px;
+    }
+
+    /* Footer section end */
+
+}
+@media (max-width: 575.98px) {
+/* Responsive For Extra Small Device Like Mobile Phone */
+
+    /* Navbar section start */
+
+    .navbar {
+        background: rgba(0, 0, 0, 0.8);
+        padding-top: 5px !important;
+    }
+
+    .navbar .container-xl {
+        padding-bottom: 5px;
+    }
+
+    .navbar .nav-item {
+        padding-top: 20px;
+        margin-top: 10px;
+        padding-bottom: 20px;
+        background: rgba(0, 197, 252, 0.8);
+    }
+
+    .nav-link {
+        padding-left: 20px !important;
+    }
+
+    .nav-link:after {
+        display: none;
+    }
+
+    .navbar .mobile-search .nav-item {
+        padding-top: 0px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        background: none;
+    }
+
+    /* Navbar section end */
+
+    /* Banner section start */
+
+    #banner .slider-item {
+        height: 500px;
+    }
+
+    #banner .slider-item img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #banner .left-arrow, #banner .right-arrow {
+        display: none !important;
+    }
+
+    #banner h1 {
+        font: 400 20px/30px'Open Sans', sans-serif;
+        color: var(--white);
+    }
+
+    #banner p {
+        font: 400 13px/25px'Open Sans', sans-serif;
+        color: var(--white);
+    }
+
+    #banner .overlay {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /* Banner section end */
+
+    /* Service section start */
+
+    #service {
+        padding-top: 50px;
+        padding-bottom: 20px;
+        
+    }
+
+    /* Service section end */
+    
+    /* Features section start */
+
+    #features .feature {
+        padding-top: 30px;
+        padding-bottom: 40px;
+        width: 100%;
+        position: relative;
+        left: 0;
+        padding-left: 20px;
+    }
+
+    #features .mobile-screen {
+        display: none;
+    }
+
+    /* Features section end */
+
+    /* Portfolio section start */
+
+    #portfolio .image-item {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    #portfolio .image-info {
+        padding-left: 20px;
+        bottom: -70px;
+    }
+
+    #portfolio .image-info h6 {
+        font: 400 14px/25px 'Open Sans', sans-serif;
+    }
+
+    #portfolio .portfolio-video {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    /* Portfolio section end */
+
+    /* About us section start */
+
+    #about-us .big-screen {
+        margin-bottom: -40px;
+    }
+
+    /* About us section end */
+    
+    /* Feedback section start */
+
+    #feedback p {
+        font: 400 20px/30px 'Open Sans', sans-serif;
+    }
+
+    /* Feedback section end */
+
+    /* Footer section start */
+
+    #footer {
+        padding-top: 100px;
+    }
+
+    /* Footer section end */
+    @media (min-width: 480px) and (max-width: 575.98px){
+
+        /* Portfolio section start */
+        
+        #portfolio .image-item {
+            width: 50%;
+            overflow: hidden;
+        } 
+        
+        #portfolio .image-icon {
+            transform: scale(.7) translate(-70%, -50%);
+            -webkit-transform: scale(.7) translate(-70%, -50%);
+            -moz-transform: scale(.7) translate(-70%, -50%);
+            -ms-transform: scale(.7) translate(-70%, -50%);
+            -o-transform: scale(.7) translate(-70%, -50%);
+        }
+        
+        /* Portfolio section end */
+    }
+
+}
